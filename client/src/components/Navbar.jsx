@@ -13,7 +13,7 @@ function Navbar() {
     <div className="flex item-center justify-between py-4 ">
         <Link to="/">
         <div className="flex flex-row justify-center items-center gap-1 font-semibold md:text-2xl text-l text-slate-700">
-       <img src={assets.artifex} alt="logo" className="w-10 h-10 md:w-12 md:h-12"/> Artifex
+       <img src={assets.artifex} alt="logo" className="w-10 h-10 md:w-12 md:h-12"/> ImaginAiry
         </div>
        </Link>
 
