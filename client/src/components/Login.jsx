@@ -76,7 +76,7 @@ className='relative bg-white p-10 rounded-xl text-slate-500 '>
     <input onChange={e => setName(e.target.value)}  value={name} type="text" className='outline-none text-sm'placeholder="Full Name" required/>
 </div>}
 
-<div className='border px-5 py-2 flex items-center gap-3 rounded-full mt-4'>
+<div className='border px-5 py-2 flex items-center gap-2 rounded-full mt-4'>
 
 <img src={assets.email_icon} alt="" />
 <input onChange={e => setEmail(e.target.value)} value={email} type="email" className='outline-none text-sm' placeholder="Email id" required/>
