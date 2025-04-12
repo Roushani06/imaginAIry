@@ -15,7 +15,7 @@ function BuyCredit() {
     viewport={{once: true}}
     
     className='min-h-[80vh] text-center pt-14 mb-10'>
-      <button className='border border-gray-400 px-10 py-2 rounded-full mb-6'>
+      <button className='border border-gray-500 px-10 py-2 rounded-full mb-6'>
         Our Plans
       </button>
 
