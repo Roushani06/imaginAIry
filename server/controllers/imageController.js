@@ -17,7 +17,7 @@ try{
         return res.json({success: false, creditBalance: 0, message: "Insufficient credit balance"});
     }
 
-    const formData = new FormData();
+    const formData = new FormData()
     formData.append("prompt", prompt);
 
    const {data} = await axios.post('https://clipdrop-api.co/text-to-image/v1', formData, {
