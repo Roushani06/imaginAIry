@@ -14,7 +14,7 @@ import { useContext } from 'react'
 
 const  App = () => {
 
-  
+  const {showLogin} = useContext(AppContext)
   return (
     <div className= 'px-4 sm:px-10 md:px-14 lg:px-28 min-h-screen bg-gradient-to-l from-pink-200 via-purple-100 to-blue-300 '>
 <ToastContainer position='bottom-right'/>
